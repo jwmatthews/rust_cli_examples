@@ -7,7 +7,7 @@ struct Cli {
     #[clap(required = true, min_values = 1)]
     text: Vec<String>,
 
-    #[clap(short = 'n', long = "omit_newlane", action = clap::ArgAction::SetFalse)]
+    #[clap(short = 'n', long = "omit_newlane")]
     omit_newline: bool,
 }
 

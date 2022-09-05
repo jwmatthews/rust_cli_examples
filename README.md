@@ -20,14 +20,14 @@ Heavily inspired and borrowing from:
 
 # Misc Notes
 * `clap` is used for command line argument parsing
-  * https://docs.rs/clap/3.2.20/clap/
-  * https://docs.rs/clap/3.2.20/clap/_derive/_tutorial/index.html
-  * https://rust-cli.github.io/book/tutorial/cli-args.html#parsing-cli-arguments-with-clap
-* 
+  * I'm experimenting with the Derive usage opposed to Builder for most of the examples
+    * https://docs.rs/clap/3.2.20/clap/_derive/_tutorial/index.html
+    * https://rust-cli.github.io/book/tutorial/cli-args.html#parsing-cli-arguments-with-clap
 # Examples
    * `grrs`:  Simple Grep example from: https://rust-cli.github.io/book/tutorial/index.html
    * `echor`: Reimplementation of Unix [echo](https://www.unix.com/man-page/bsd/1/echo/) 
      * Example:  `cd echor && cargo run -- -n tests/expected/hello1.txt`
+  
 
 
 
