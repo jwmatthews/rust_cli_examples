@@ -26,9 +26,7 @@ Heavily inspired and borrowing from:
 # Examples
    * `grrs`:  Simple Grep example from: https://rust-cli.github.io/book/tutorial/index.html
    * `echor`: Reimplementation of Unix [echo](https://www.unix.com/man-page/bsd/1/echo/) 
-     * Example:  `cd echor && cargo run -- -n tests/expected/hello1.txt`
-  
-
+   * `catr`: Reimplementation of Unix [cat](https://www.unix.com/man-page/bsd/1/cat/)
 
 
 # VSCode Notes
