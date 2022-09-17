@@ -27,13 +27,23 @@ Heavily inspired and borrowing from:
    * `grrs`:  Simple Grep example from: https://rust-cli.github.io/book/tutorial/index.html
    * `echor`: Reimplementation of Unix [echo](https://www.unix.com/man-page/bsd/1/echo/) 
    * `catr`: Reimplementation of Unix [cat](https://www.unix.com/man-page/bsd/1/cat/)
+   * `headr`: Reimplementation of Unix [head](https://www.unix.com/man-page/bsd/1/head/)
 
 
 # VSCode Notes
 1. Installed `rust-analyzer`
-2. Enabled format on save via settings.json
+2. Installed `CodeLLDB` to enable debugging with Rust
+3. Enabled format on save via settings.json
    
         "[rust]": {
             "editor.defaultFormatter": "rust-lang.rust-analyzer",
             "editor.formatOnSave": true
         },
+
+# Intellij Rust Plugin
+I ran into a desire to see the implementation of external crates and wasn't able to 'go to implementation' with VSCode so began to add Intelli-J with the Rust plugin to my editor tools
+* https://intellij-rust.github.io/
+* Enabled 'external linter' and allowed cargo check on the fly
+* Enabled rustfmt to run on save and be the formatter
+* Configured to open files with single click:  https://stackoverflow.com/questions/11736355/how-to-set-single-clicking-to-open-file-in-intellij-idea
+
